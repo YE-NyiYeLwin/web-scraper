@@ -1,0 +1,76 @@
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-animation {
+    animation: loading 1s linear infinite;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.green-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.green-button:hover {
+    background-color: darkgreen;
+}
+
+.content{
+    margin-left: 25%;
+    padding-top: 20px;
+    width: 75%;
+    padding-bottom: 30px;
+}
+
+body{
+    background-color: rgb(255, 247, 236);
+}
+
+.job-menu{
+    font-size: 16pt;
+    background-color: rgb(190, 216, 241,0.4);
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.job-menu span{
+    margin-left: 10%;
+    font-size: 12pt;
+    color: rgb(133, 132, 132);
+}
+
+.job-menu:hover{
+    cursor: pointer;
+    background-color: rgb(190, 216, 241);
+    transform: scale(1.01);
+}
+
+.job-big{
+    width: 80%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(213, 240, 244, 0.7);
+    margin-bottom: 10px;
+}
+
+.job-big:hover {
+    cursor: pointer;
+}
